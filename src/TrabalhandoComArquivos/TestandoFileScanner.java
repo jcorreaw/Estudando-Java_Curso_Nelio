@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class TestandoFileScanner {
     public static void main(String[] args) {
         File file = new File("//home//joao//Projetos Java//testeJava.txt");
         Scanner sc = null;
