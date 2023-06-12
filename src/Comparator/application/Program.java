@@ -17,6 +17,7 @@ public class Program {
 
         list.sort((p1,p2) -> p1.getName().toUpperCase().compareTo(p2.getName()));
 
+        list.sort(new MyComparator());
         for (Product p : list) {
             System.out.println(p);
         }
