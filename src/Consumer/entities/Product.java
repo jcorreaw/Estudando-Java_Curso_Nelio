@@ -29,7 +29,7 @@ public class Product {
         p.setPrice(p.getPrice() * 1.1);
     }
 
-    public void nonProductPredicate(){
+    public void nonStaticProductPredicate(){
         price = price * 1.1;
     }
 

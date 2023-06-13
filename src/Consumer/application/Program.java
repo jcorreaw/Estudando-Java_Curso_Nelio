@@ -20,7 +20,7 @@ public class Program {
 
 //        list.forEach(new PriceUpdate());
 //        list.forEach(Product::staticPriceUpdate);
-//        list.forEach(Product::nonProductPredicate);
+//        list.forEach(Product::nonStaticProductPredicate);
 
         double factor = 1.1;
 //        Consumer<Product> cons = p -> p.setPrice(p.getPrice() * factor);
