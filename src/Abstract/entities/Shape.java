@@ -1,6 +1,6 @@
 package Abstract.entities;
 
-import Abstract.Enuns.Color;
+import Abstract.enuns.Color;
 
 public abstract class Shape {
     private Color color;

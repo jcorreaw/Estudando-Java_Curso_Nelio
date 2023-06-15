@@ -1,4 +1,4 @@
-package Abstract.Enuns;
+package Abstract.enuns;
 
 public enum Color {
     BLACK,
